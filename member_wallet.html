@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="icon" href="images/titlelogo.png">
+	<!--<link rel="shortcut icon" href="favicon.ico"/> --> 
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">    
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="css/style2.css">     
+	<title>我的錢包 | 台灣好好玩</title>
+</head>
+<body class="no-overflow member_wallet" data-color="theme-1">
+	<a href="#" class="scroll_Top"></a>
+	<div class="loading blue">
+		<div class="loading-center taiwanout">
+			<img class="taiwanload" src="images/taiwan.png">
+			<div id="fountainG">
+				<div id="fountainG_1" class="fountainG"></div>
+				<div id="fountainG_2" class="fountainG"></div>
+				<div id="fountainG_3" class="fountainG"></div>
+				<div id="fountainG_4" class="fountainG"></div>
+				<div id="fountainG_5" class="fountainG"></div>
+				<div id="fountainG_6" class="fountainG"></div>
+				<div id="fountainG_7" class="fountainG"></div>
+				<div id="fountainG_8" class="fountainG"></div>
+			</div>
+			<!--<div class="loading-center-absolute">
+				<div class="object object_four"></div>
+				<div class="object object_three"></div>
+				<div class="object object_two"></div>
+				<div class="object object_one"></div>
+			</div>-->
+		</div>
+	</div>
+	
+	<header class="color-1 hovered menu-3 menu-new">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="nav phonenav">
+            <a href="active_list.html" class="logo">
+              <img src="images/headlogo3.png" alt="">
+            </a>
+            <div class="nav-menu-icon phonemenuicon">
+              <a href="#">
+                <i></i>
+              </a>
+            </div>
+            <nav class="menu">
+              <ul class="phonebgdark">
+                <li class="type-1 active">
+                  <a class="actquick" href="active_list.html">活動快訊
+                    <span class="fa fa-angle-down"></span>
+                  </a>
+                </li>
+                <li class="type-1">
+                  <a href="#">景點介紹
+                    <span class="fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropmenu">
+                    <li>
+                      <a href="">test 1</a>
+                    </li>
+                    <li>
+                      <a href="">test 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="type-1">
+                  <a href="#">旅遊行程
+                    <span class="fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropmenu">
+                    <li>
+                      <a href="">test 1</a>
+                    </li>
+                    <li>
+                      <a href="">test 2</a>
+                    </li>
+                    <li>
+                      <a href="">test 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="type-1">
+                  <a href="#">導遊媒合
+                    <span class="fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropmenu">
+                    <li>
+                      <a href="">找導遊</a>
+                    </li>
+                    <li>
+                      <a href="">找行程</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="type-1">
+                  <a href="#">會員推薦
+                    <span class="fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropmenu">
+                    <li>
+                      <a href="">test 1</a>
+                    </li>
+                    <li>
+                      <a href="">test 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="type-1">
+                  <a href="member_login.html">會員專區
+                    <span class="fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropmenu">
+                    <li>
+                      <a href="member_register.html">會員註冊</a>
+                    </li>
+                    <li>
+                      <a href="member_login.html">會員登入</a>
+                    </li>
+                    <li>
+                      <a href="member_edit.html">會員基本資料</a>
+                    </li>
+                    <li>
+                      <a href="member_emergency_contact.html">緊急聯絡人資料</a>
+                    </li>
+                    <li>
+                      <a href="member_inherit.html">受益人資料</a>
+                    </li>
+                    <li>
+                      <a href="member_recommend.html">推薦人資料</a>
+                    </li>
+                    <li>
+                      <a href="member_wallet.html">我的錢包</a>
+                    </li>
+                    <li>
+                      <a href="member_invoice.html">發票資料</a>
+                    </li>
+                    <li>
+                      <a href="member_collect.html">我的收藏</a>
+                    </li>
+                    <li>
+                      <a href="order_history.html">歷史訂單</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="type-1">
+                  <a href="#">保險專區
+                    <span class="fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropmenu">
+                    <li>
+                      <a href="#">About
+                        <span class="fa fa-chevron-right"></span>
+                      </a>
+                      <ul class="dropmenu">
+                        <li>
+                          <a href="#">About us 1</a>
+                        </li>
+                        <li>
+                          <a href="#">About us 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Service
+                        <span class="fa fa-chevron-right"></span>
+                      </a>
+                      <ul class="dropmenu">
+                        <li>
+                          <a href="#">Services 1</a>
+                        </li>
+                        <li>
+                          <a href="#">Services 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Policies</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+	<!--活動列表-->
+	<div class="inner-banner style-6 background-block actquicktitle">
+		<!--<img class="center-image" src="img/inner/bg_3.jpg" alt="" style="display: none;">-->
+		<div class="vertical-align">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-8 col-md-offset-2">
+						<!--<ul class="banner-breadcrumb color-white clearfix">
+							<li><a class="link-blue-2" href="#">home</a> /</li>
+							<li><a class="link-blue-2" href="#">pages</a> /</li>
+							<li><span>about us</span></li>
+						</ul>-->
+						<h2>我的錢包</h2>
+						<ul class="banner-breadcrumb color-white clearfix everypagelist everypageinlist">
+							<li><a class="link-blue-2" href="#">首頁</a><i class="icon-myicon-arrows-13 everpagearrow"></i></li>
+							<li><a class="link-blue-2" href="#">會員專區</a><i class="icon-myicon-arrows-13 everpagearrow"></i></li>
+							<li class="active"><span>我的錢包</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="main-wraper padd-90 tabs-page iconbgslider">
+		<div class="list-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<h3 class="step_title">我的錢包</h3>
+						<hr>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12 step_block step1">
+            <div class="form_block">
+              <div class="form_group">
+                <input type="radio" name="act_type" id="type1" checked="checked" hidden>
+                <label class="btn-type" for="type1">帳戶/錢包資料</label>
+              </div>
+              <div class="form_group">
+                <input type="radio" name="act_type" id="type2" hidden>
+                <label class="btn-type" for="type2">我要儲值</label>
+              </div>
+              <div class="form_group">
+              	<input type="radio" name="act_type" id="type3" hidden>
+              	<label class="btn-type" for="type3">積分</label>
+              </div>
+            </div>
+          </div>
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="actlist_bgwhite his_bgwhite">
+							<!-- 儲值餘額 -->
+							<div class="wallet-list" id="type1">
+								<h3 class="step_title">儲值餘額</h3>
+								<div class="table-responsive">
+                  <table class="act_contable table table-bordered table-txt-center">
+                    <thead>
+                      <tr>
+                        <th>儲值餘額</th>
+                        <th>交易明細</th>
+                        <th>交易日期</th>
+                        <th>交易時間</th>
+                        <th>交易類型</th>
+                        <th>匯款來源</th>
+                        <th>訂單號碼</th>
+                        <th>商品編號</th>
+                        <th>收入</th>
+                        <th>支出</th>
+                        <th>備註</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>$12,100</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/21</td>
+                        <td>13:54</td>
+                        <td>儲值</td>
+                        <td>無摺存款</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$8,000</td>
+                        <td>$0</td>
+                        <td>無</td>
+                      </tr>
+                      <tr>
+                        <td>$4,100</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/20</td>
+                        <td>09:14</td>
+                        <td>購買行程</td>
+                        <td>無</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$0</td>
+                        <td>$4,000</td>
+                        <td>使用儲值金</td>
+                      </tr>
+                      <tr>
+                        <td>$12,100</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/21</td>
+                        <td>13:54</td>
+                        <td>儲值</td>
+                        <td>無摺存款</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$8,000</td>
+                        <td>$0</td>
+                        <td>無</td>
+                      </tr>
+                      <tr>
+                        <td>$4,100</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/20</td>
+                        <td>09:14</td>
+                        <td>購買行程</td>
+                        <td>無</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$0</td>
+                        <td>$4,000</td>
+                        <td>使用儲值金</td>
+                      </tr>
+                      <tr>
+                        <td>$12,100</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/21</td>
+                        <td>13:54</td>
+                        <td>儲值</td>
+                        <td>無摺存款</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$8,000</td>
+                        <td>$0</td>
+                        <td>無</td>
+                      </tr>
+                      <tr>
+                        <td>$4,100</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/20</td>
+                        <td>09:14</td>
+                        <td>購買行程</td>
+                        <td>無</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$0</td>
+                        <td>$4,000</td>
+                        <td>使用儲值金</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+								<div class="clearfix"></div>
+								<div class="h30"></div>
+								<h3 class="step_title">積分餘額</h3>
+								<div class="table-responsive">
+                  <table class="act_contable table table-bordered table-txt-center">
+                    <thead>
+                      <tr>
+                        <th>積分餘額</th>
+                        <th>交易明細</th>
+                        <th>交易日期</th>
+                        <th>交易時間</th>
+                        <th>交易類型</th>
+                        <th>匯款來源</th>
+                        <th>訂單號碼</th>
+                        <th>商品編號</th>
+                        <th>收入</th>
+                        <th>支出</th>
+                        <th>備註</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>$1,030</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/21</td>
+                        <td>13:54</td>
+                        <td>儲值</td>
+                        <td>儲值金轉換</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$1,000</td>
+                        <td>$0</td>
+                        <td>無</td>
+                      </tr>
+                      <tr>
+                        <td>$30</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/20</td>
+                        <td>09:14</td>
+                        <td>購買共乘車票</td>
+                        <td>無</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$0</td>
+                        <td>$2,000</td>
+                        <td>使用積分</td>
+                      </tr>
+                      <tr>
+                        <td>$1,030</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/21</td>
+                        <td>13:54</td>
+                        <td>儲值</td>
+                        <td>儲值金轉換</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$1,000</td>
+                        <td>$0</td>
+                        <td>無</td>
+                      </tr>
+                      <tr>
+                        <td>$30</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/20</td>
+                        <td>09:14</td>
+                        <td>購買共乘車票</td>
+                        <td>無</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$0</td>
+                        <td>$2,000</td>
+                        <td>使用積分</td>
+                      </tr>
+                      <tr>
+                        <td>$1,030</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/21</td>
+                        <td>13:54</td>
+                        <td>儲值</td>
+                        <td>儲值金轉換</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$1,000</td>
+                        <td>$0</td>
+                        <td>無</td>
+                      </tr>
+                      <tr>
+                        <td>$30</td>
+                        <td>
+                        	<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#detail">
+                            詳細內容
+                          </button>
+                        </td>
+                        <td>2018/7/20</td>
+                        <td>09:14</td>
+                        <td>購買共乘車票</td>
+                        <td>無</td>
+                        <td>201807210544</td>
+                        <td>TD20201234</td>
+                        <td>$0</td>
+                        <td>$2,000</td>
+                        <td>使用積分</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+							</div>
+							<!-- 匯款資訊 -->
+							<div class="save-list" id="type2">
+								<h3 class="step_title">匯款資訊</h3>
+								<div class="col-md-12">
+									<table class="table cart order-ok-info">
+                    <tbody>
+                      <tr>
+                        <td class="title nowrap">銀行代碼</td>
+                        <td class="account-text">700</td>
+                      </tr>
+                      <tr class="cart_item">
+                        <td class="title border-top-0"><span class="amount">銀行帳號</span>
+                        </td>
+                        <td class="border-top-0"><span class="account-text">511027-8 645822-1</span>
+                        </td>
+                      </tr>
+                      <tr class="cart_item">
+                        <td class="title">戶名</td>
+                        <td>好好玩旅行社</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <label class="form_line_name">詳細說明</label>
+                  <p class="text-danger">轉帳匯款完成後，請務必【來電告知轉出帳號之末５碼及匯款人姓名】，以利核對</p>
+                  
+								</div>
+							</div>
+							<!-- 積分 -->
+							<div class="point-list" id="type3">
+								<h3 class="step_title">你的積分</h3>
+                <div class="h30"></div>
+								<div class="col-md-12">
+									<div class="act_list_block">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-5 col-xs-12 act_list_left">
+                        <h2 class="step_title">30</h2>
+                      </div>
+                      <div class="col-sm-6 col-md-7 col-xs-12 act_list_right">
+                        <span class="act_sign">會員資料</span>
+                        <div class="clearfix"></div>
+                        <ul>
+                          <li>
+                            <div class="act_th">姓名：</div> 王曉明
+                          </li>
+                          <li>
+                            <div class="act_th">帳號：</div> smallming@gmail.com
+                          </li>
+                          <li>
+                            <div class="act_th">儲值金餘額：</div> $12,100
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+	<!--活動列表 END-->
+
+	<footer class="section footer bg-dark footerpt">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 no-padding">
+					<div class="footer-block first footerlogo footermd">
+						<a href=""><img src="images/headlogo3.png" alt="" class="logo-footer footerlogobig"></a>	
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-12 no-padding">						
+					<ul class="footerabout">
+						<li><a class="link-aqua" href="#">關於我們</a></li>
+						<li><a class="link-aqua" href="#">聯絡我們</a></li>
+						<li><a class="link-aqua" href="#">隱私權政策 </a></li>
+						<li><a class="link-aqua" href="#">使用條款</a></li>
+						<li><a class="link-aqua" href="#">找導遊</a></li>
+						<li><a class="link-aqua" href="#">找旅團</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-link bg-black footerlist">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 col-sm-5">
+						<div class="copyright copytaiwan">
+							<span>&copy; 2018 All rights reserved. Designed by<a href="" target="_blank"> Bondlink</a></span>
+						</div>
+					</div>
+					<div class="col-md-7 col-sm-7">
+						<ul class="footercontactlist">
+							<li><a href="tel:0800-123-456">電話：0800-123-456</a></li>
+							<li><a href="mailto:test123@hmail.com">E-mail：test123@hmail.com</a></li>
+							<li>地址：高雄市新興區民生一路56號</li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- modal -->
+	<div class="modal fade" id="detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">詳細內容</h4>
+        </div>
+        <div class="modal-body">
+          <table id="" class="display dataTable no-footer" cellspacing="0" width="100%" role="grid">
+						<thead class="tbbotom">
+							<tr role="row" class="whitetr">
+								<td class="list_date sorting_asc datewidth hisdatewidth" rowspan="1" colspan="1" aria-sort="ascending">
+									訂單編號
+								</td>
+								<td class="list_name " rowspan="1" colspan="1">
+									團號
+								</td>
+								<td class="list_price " rowspan="1" colspan="1" >
+									旅行社名稱
+								</td>
+								<td class="list_note  " rowspan="1" colspan="1">
+									參加日期
+								</td>
+								<td class="list_status ">
+									活動/行程名稱
+								</td>
+								<td class="list_status ">
+									費用金額
+								</td>
+							</tr>
+						</thead>
+						<tbody>  
+							<tr role="row"  class="graylight twopd">
+								<td class="darkdate" data-text="訂單編號：">
+									201803041105
+								</td>
+								<td data-text="團號：">
+										11025540
+								</td>								
+								<td data-text="旅行社名稱：">
+									好好玩旅行社
+								</td>
+								<td data-text="參加日期：">2018/7/21</td>
+								<td data-text="活動/行程名稱：">綠島浮潛四日遊</td>
+								<td data-text="費用金額：">$8000</td>
+							</tr>	
+						</tbody>
+					</table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-warning">確定</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/idangerous.swiper.min.js"></script>
+	<script src="js/jquery.viewportchecker.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>	
+	<script src="js/map.js"></script>	
+	<script src="js/all.js"></script>
+	<script>
+		$(function() {
+			$('#type1').click(function(event) {
+        if($(this).attr('id') == "type1"){
+          $(".wallet-list").fadeIn();
+          $(".save-list").hide();
+          $(".point-list").hide();
+        };
+      });
+      $('#type2').click(function(event) {
+        if($(this).attr('id') == "type2"){
+          $(".save-list").fadeIn();
+          $(".wallet-list").hide();
+          $(".point-list").hide();
+        };
+      });
+      $('#type3').click(function(event) {
+        if($(this).attr('id') == "type3"){
+          $(".point-list").fadeIn();
+          $(".save-list").hide();
+          $(".wallet-list").hide();
+        };
+      });
+
+		});
+	</script>
+</body>
+</html>				   
